@@ -56,3 +56,4 @@ dependencies {
 ```
 
 - aiv_borderWidth - parameter or border size
+- aiv_borderColor - parameter pr border color
