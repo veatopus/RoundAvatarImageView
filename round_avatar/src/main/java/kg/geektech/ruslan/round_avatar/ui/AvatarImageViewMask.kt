@@ -11,6 +11,9 @@ import androidx.core.graphics.toRectF
 import kg.geektech.ruslan.round_avatar.R
 import kg.geektech.ruslan.round_avatar.extensions.convertDpToPx
 
+/**
+ * this child class ImageView -helper for show avatar
+ */
 class AvatarImageViewMask @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
@@ -23,9 +26,15 @@ class AvatarImageViewMask @JvmOverloads constructor(
         const val DEFAULT_BORDER_COLOR = Color.WHITE
     }
 
+    /**
+     * size border
+     */
     @Px
     var borderWidth: Float = context.convertDpToPx(DEFAULT_BORDER_WIDTH)
 
+    /**
+     * colos border
+     */
     @ColorInt
     private var borderColor: Int = Color.WHITE
     private var initials: String = "??"
