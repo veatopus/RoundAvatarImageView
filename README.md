@@ -5,30 +5,16 @@
 ---
 
 ##Gradle
-
 **Add it in your root build.gradle at the end of repositories:**
 
-```html
-<h2>Example of code</h2>
-
-<pre>
-    <div class="container">
-        <div class="block two first">
-            <h2>Your title</h2>
-            <div class="wrap">
-            //Your content
-            </div>
-        </div>
-    </div>
-</pre>
-```
-
+```maven
 allprojects {
 		repositories {
 			...
 			maven { url 'https://www.jitpack.io' }
 		}
 }
+```
 
 **Step 2. Add the dependency**
 
@@ -37,7 +23,6 @@ dependencies {
 }
 
 ##Maven
-
 <repositories>
 		<repository>
 		    <id>jitpack.io</id>
