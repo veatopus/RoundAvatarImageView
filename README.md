@@ -8,7 +8,7 @@
 
 **Add it in your root build.gradle at the end of repositories:**
 
-```xml
+```gradle
 allprojects {
 		repositories {
 			...
@@ -19,7 +19,7 @@ allprojects {
 
 **Step 2. Add the dependency**
 
-```xml
+```gradle
 dependencies {
 	        implementation 'com.github.veatopus:RoundAvatarImageView:1.0'
 }
