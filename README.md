@@ -10,10 +10,10 @@
 
 ```gradle
 allprojects {
-		repositories {
-			...
-			maven { url 'https://www.jitpack.io' }
-		}
+        repositories {
+		...
+		maven { url 'https://www.jitpack.io' }
+	}
 }
 ```
 
@@ -21,17 +21,17 @@ allprojects {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.veatopus:RoundAvatarImageView:1.0'
+	 implementation 'com.github.veatopus:RoundAvatarImageView:1.0'
 }
 ```
 
 ##Maven
 ```xml
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://www.jitpack.io</url>
-		</repository>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://www.jitpack.io</url>
+	</repository>
 </repositories>
 ```
 
@@ -39,8 +39,8 @@ dependencies {
 
 ```xml
 <dependency>
-	    <groupId>com.github.veatopus</groupId>
-	    <artifactId>RoundAvatarImageView</artifactId>
-	    <version>1.0</version>
+    <groupId>com.github.veatopus</groupId>
+    <artifactId>RoundAvatarImageView</artifactId>
+    <version>1.0</version>
 </dependency>
 ```
