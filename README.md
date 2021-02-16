@@ -4,7 +4,7 @@
 
 ---
 
-##Gradle
+## Gradle
 
 **Add it in your root build.gradle at the end of repositories:**
 
@@ -17,7 +17,7 @@ allprojects {
 }
 ```
 
-**Step 2. Add the dependency**
+- Step 2. Add the dependency
 
 ```gradle
 dependencies {
@@ -25,7 +25,7 @@ dependencies {
 }
 ```
 
-##Maven
+## Maven
 ```xml
 <repositories>
 	<repository>
@@ -35,7 +35,7 @@ dependencies {
 </repositories>
 ```
 
-**Step 2. Add the dependency**
+- tep 2. Add the dependency
 
 ```xml
 <dependency>
