@@ -35,7 +35,7 @@ dependencies {
 </repositories>
 ```
 
-- tep 2. Add the dependency
+- Step 2. Add the dependency
 
 ```xml
 <dependency>
