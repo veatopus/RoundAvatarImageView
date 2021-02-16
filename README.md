@@ -4,10 +4,9 @@
 
 ---
 
-## Gradle
+## Download
 
-**Add it in your root build.gradle at the end of repositories:**
-
+**Or use Gradle:**
 ```gradle
 allprojects {
         repositories {
@@ -25,7 +24,7 @@ dependencies {
 }
 ```
 
-## Maven
+**Or Maven:**
 ```xml
 <repositories>
 	<repository>
@@ -44,3 +43,16 @@ dependencies {
     <version>1.0</version>
 </dependency>
 ```
+
+---
+
+## How do i use RoundAvatarImageView
+```xml
+    <kg.geektech.ruslan.createviewwithcastomtheme.ui.AvatarImageViewMask
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        app:aiv_borderWidth="8dp"/>
+```
+
+- aiv_borderWidth - parameter or border size
