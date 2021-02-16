@@ -1,0 +1,3 @@
+include ':round_avatar'
+include ':app'
+rootProject.name = "RoundAvatarImageView"
