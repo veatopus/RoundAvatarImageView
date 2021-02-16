@@ -52,6 +52,7 @@ dependencies {
     android:layout_width="120dp"
     android:layout_height="120dp"
     android:src="@mipmap/ic_launcher"
+    app:aiv_borderColor="@android:color/black"
     app:aiv_borderWidth="8dp"/>
 ```
 
